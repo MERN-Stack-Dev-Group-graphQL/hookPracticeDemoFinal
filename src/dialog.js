@@ -1,8 +1,8 @@
 import ReactDOM from "react-dom";
-
+import { useEffect } from "react";
 const portalRoot = document.getElementById("portal-root");
 
-export default function dialog(props) {
+export default function Dialog(props) {
   let element = document.createElement("div");
 
   useEffect(() => {
