@@ -20,4 +20,5 @@ export const useAsync = (asyncFunction, status = true) => {
       execute();
     }
   }, [execute, status]);
+  return { execute, pending, value, error };
 };
