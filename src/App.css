@@ -1,5 +1,9 @@
 .App {
+  height: 15em;
+  width: 15em;
+  background-color: lightcoral;
   text-align: center;
+  overflow: hidden;
 }
 
 .App-logo {
